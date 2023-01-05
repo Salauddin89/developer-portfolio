@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+/* Banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-descrip {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* About Section styles */
+main {
+    /* max-width: 1140px; */
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    max-width: 1140px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 22px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+
+    font-size: 20px;
+    color: #757575
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
